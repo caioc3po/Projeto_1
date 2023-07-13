@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+/*Cabeçalho*/
+
+.container {
+    font-family: 'Tektur', cursive;
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 20px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+header nav li a:hover {
+    color: grey;
+}
+
+/*Sessão "sobre"*/
+
+
+
+section {
+    max-width: 1280px;
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.content1,
+.content2 {
+    display: flex;
+    margin: 50px auto
+}
+
+
+
+.content1 img,
+.content2 img {
+    height: 400px;
+    border: 2px solid white;
+}
+
+section .container p {
+    font-size: 23px;
+    margin: 16px;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-size: 50px;
+}
+
+/*Sessão "contato"*/
+
+
+.social-medias img {
+    height: 40px;
+}
+
+#contact .container {
+    display: block;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-medias li {
+    display: inline;
+}
+
+.social-medias li a {
+    text-decoration: none;
+}
+
+.contact-methods form textarea,
+.contact-methods form input {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px
+}
+
+.contact-methods form textarea {
+    resize: none
+}
+
+.contact-methods button {
+    display: block;
+    width: 100px;
+    padding: 7px;
+    font-size: 15;
+    background-color: red;
+    border: none;
+}
+
+.contact-methods button:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.location a img {
+    height: 200px;
+    border: 2px solid white;
+}
+
+.location p {
+    font-size: 100px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: red;
+    padding: 15px 200px;
+}
+
